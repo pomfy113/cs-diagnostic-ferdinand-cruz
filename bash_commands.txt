@@ -1,0 +1,10 @@
+Change directory - cd
+List items in current directory - ls
+Print working directory - printf
+Create a new file called “cookies.txt” - ?
+Create a new folder called “recipes” - ?
+Delete a file - ?
+
+Stage a file in Git - ?
+Commit a file in Git - commit
+(Woops I ended up depending on the GUI desktop version)
