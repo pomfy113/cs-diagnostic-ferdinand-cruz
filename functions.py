@@ -24,8 +24,21 @@ def iter_fib(num):
         currentNum = temp+currentNum
 
 # I'm not sure about defaults yet
+
 num = 10
 if len(sys.argv) == 2:
     num = int(sys.argv[1])
 
-iter_fib(num)
+#iter_fib(num)
+
+# Recursion!
+def recur_factorial(num_factorial):
+    # End of the line; important unless we wanna infinite loop
+    if num_factorial == 1:
+        return 1
+    # Not quite done yet; do another call of the function
+    # It basically calls another function of itself over and over until 1
+    else:
+        return num_factorial * recur_factorial(num_factorial-1)
+
+print recur_factorial(3)
